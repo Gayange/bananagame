@@ -5,7 +5,6 @@ import { fonts } from '../utils/fonts';
 import { useNavigation } from '@react-navigation/native';
 
 const HomeScreen = () => {
-
   const navigation = useNavigation();
 
   const handleLogin = () => {
@@ -21,8 +20,10 @@ const HomeScreen = () => {
         A simple, yet challenging game where you need to collect and store bananas while avoiding obstacles.
       </Text>
       <View style={styles.buttonContainer}>
-        <TouchableOpacity style={[styles.loginButtonWrapper, { backgroundColor: colors.primary }]}
-        onPress={handleLogin}>
+        <TouchableOpacity
+          style={[styles.loginButtonWrapper, { backgroundColor: colors.primary }]}
+          onPress={handleLogin}
+        >
           <Text style={styles.loginButtonText}>Login</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.signupButtonWrapper}>
