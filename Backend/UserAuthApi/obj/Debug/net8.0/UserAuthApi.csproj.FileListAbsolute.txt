@@ -1,0 +1,144 @@
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\appsettings.Development.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\appsettings.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\UserAuthApi.exe
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\UserAuthApi.deps.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\UserAuthApi.runtimeconfig.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\UserAuthApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\UserAuthApi.pdb
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\DnsClient.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\SharpCompress.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\Snappier.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\bin\Debug\net8.0\ZstdSharp.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuthApi.csproj.AssemblyReference.cache
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuthApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuthApi.AssemblyInfoInputs.cache
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuthApi.AssemblyInfo.cs
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuthApi.csproj.CoreCompileInputs.cache
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuthApi.MvcApplicationPartsAssemblyInfo.cs
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuthApi.MvcApplicationPartsAssemblyInfo.cache
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\staticwebassets.build.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\staticwebassets.development.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.UserAuthApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.build.UserAuthApi.props
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.UserAuthApi.props
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.UserAuthApi.props
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\staticwebassets.pack.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\scopedcss\bundle\UserAuthApi.styles.css
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuth.8A6FF9D0.Up2Date
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuthApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\refint\UserAuthApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuthApi.pdb
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\UserAuthApi.genruntimeconfig.cache
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\UserAuthApi\obj\Debug\net8.0\ref\UserAuthApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\appsettings.Development.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\appsettings.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\UserAuthApi.exe
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\UserAuthApi.deps.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\UserAuthApi.runtimeconfig.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\UserAuthApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\UserAuthApi.pdb
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\DnsClient.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\SharpCompress.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Snappier.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\ZstdSharp.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.csproj.AssemblyReference.cache
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.AssemblyInfoInputs.cache
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.AssemblyInfo.cs
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.csproj.CoreCompileInputs.cache
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.MvcApplicationPartsAssemblyInfo.cs
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.MvcApplicationPartsAssemblyInfo.cache
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets.build.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets.development.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.UserAuthApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.build.UserAuthApi.props
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.UserAuthApi.props
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.UserAuthApi.props
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets.pack.json
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\scopedcss\bundle\UserAuthApi.styles.css
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuth.8A6FF9D0.Up2Date
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\refint\UserAuthApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.pdb
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.genruntimeconfig.cache
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\obj\Debug\net8.0\ref\UserAuthApi.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\appsettings.json
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\UserAuthApi.exe
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\UserAuthApi.deps.json
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\UserAuthApi.runtimeconfig.json
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\UserAuthApi.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\UserAuthApi.pdb
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Snappier.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.csproj.AssemblyReference.cache
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.AssemblyInfoInputs.cache
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.AssemblyInfo.cs
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.csproj.CoreCompileInputs.cache
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.UserAuthApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.build.UserAuthApi.props
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.UserAuthApi.props
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.UserAuthApi.props
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\scopedcss\bundle\UserAuthApi.styles.css
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuth.8A6FF9D0.Up2Date
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\refint\UserAuthApi.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.pdb
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\UserAuthApi.genruntimeconfig.cache
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\obj\Debug\net8.0\ref\UserAuthApi.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Gayan\OneDrive\Desktop\Backend\UserAuthApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\3rd year 2024\SEM1UOB\Distributed Service Architecture\TheGame\game\Backend\UserAuthApi\bin\Debug\net8.0\Newtonsoft.Json.dll
