@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, TextInput, TouchableOpacity, View, ActivityIndicator } from 'react-native';
 import axios from 'axios';
+import LottieView from 'lottie-react-native'; // Importing LottieView
 import { colors } from '../utils/colors';
 import { fonts } from '../utils/fonts';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/native';
-import AsyncStorage from '@react-native-async-storage/async-storage'; // AsyncStorage for token storage
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const LoginScreen = () => {
   const navigation = useNavigation();
@@ -14,12 +15,10 @@ const LoginScreen = () => {
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
-  // Clear any stored token on app load (optional: to force re-login on reload)
   useEffect(() => {
     const clearToken = async () => {
       try {
-        await AsyncStorage.removeItem('jwtToken'); // Clear JWT token
-        console.log('JWT Token cleared from AsyncStorage');
+        await AsyncStorage.removeItem('jwtToken');
       } catch (e) {
         console.error('Error clearing token:', e);
       }
@@ -28,71 +27,51 @@ const LoginScreen = () => {
     clearToken();
   }, []);
 
-  // Fetch and log token and userId after successful login
-  const fetchTokenAndUserId = async () => {
-    try {
-      const token = await AsyncStorage.getItem('jwtToken');
-      const userId = await AsyncStorage.getItem('userId');
-      if (token && userId) {
-        console.log('Fetched token from AsyncStorage:', token);
-        console.log('Fetched userId from AsyncStorage:', userId);
-      } else {
-        console.error('No token or userId found in AsyncStorage');
-      }
-    } catch (error) {
-      console.error('Error fetching token or userId:', error);
-    }
-  };
-
-  // Handle Login
   const handleLogin = async () => {
     if (name && password) {
-      setIsLoading(true); // Start loading state
-      setError(''); // Clear previous errors
+      setIsLoading(true);
+      setError('');
       try {
-        // Make a POST request to validate the login credentials
-        const response = await axios.post('http://192.168.43.54:5161/api/auth/login', {
-          Name: name,        // Ensure "Name" matches the backend model
-          Password: password // Ensure "Password" matches the backend model
+        const response = await axios.post('http://192.168.1.16:5161/api/auth/login', {
+          Name: name,
+          Password: password,
         });
-  
-        console.log('Login response:', response.data); // Log full response for debugging
-  
+
         if (response.data.success) {
-          const { userName, token, userId } = response.data; // Destructure response data
-  
-          // Save the username, userId, and JWT token to AsyncStorage
-          await AsyncStorage.setItem('userName', userName); // Store username
-          await AsyncStorage.setItem('jwtToken', token);    // Store JWT token
-          await AsyncStorage.setItem('userId', userId);     // Store userId
-          console.log('Token and UserId saved to AsyncStorage:', token, userId);
-  
-          // Fetch and log token and userId immediately after saving them
-          await fetchTokenAndUserId();
-  
-          // Navigate to the next screen after login
+          const { userName, token, userId } = response.data;
+          await AsyncStorage.setItem('userName', userName);
+          await AsyncStorage.setItem('jwtToken', token);
+          await AsyncStorage.setItem('userId', userId);
           navigation.navigate('LEVELSELECTION');
         } else {
-          // Show error message if credentials are incorrect
           setError(response.data.message || 'Invalid credentials');
         }
       } catch (error) {
-        console.error('Login error details:', error.response?.data || error.message); // Detailed error logging
-        setError('An error occurred. Please try again.'); // Display generic error message
+        setError('An error occurred. Please try again.');
       } finally {
-        setIsLoading(false); // Stop loading state
+        setIsLoading(false);
       }
     } else {
-      setError('Please fill out all fields'); // Ensure both fields are filled
+      setError('Please fill out all fields');
     }
   };
-  
+
   return (
     <View style={styles.container}>
+      {/* Lottie Animation */}
+      <View style={styles.animationContainer}>
+        <LottieView
+          source={require('../../assets/animations/login.json')} // Path to the Lottie file
+          autoPlay
+          loop
+          style={styles.lottie}
+        />
+      </View>
+
       <Text style={styles.headingText}>Login</Text>
 
       <View style={styles.inputContainer}>
-        <Ionicons name={"person-outline"} size={30} color={colors.secondary} />
+        <Ionicons name="person-outline" size={30} color={colors.secondary} />
         <TextInput
           style={styles.textInput}
           placeholder="Enter your name"
@@ -103,12 +82,12 @@ const LoginScreen = () => {
       </View>
 
       <View style={styles.inputContainer}>
-        <Ionicons name={"lock-closed-outline"} size={30} color={colors.secondary} />
+        <Ionicons name="lock-closed-outline" size={30} color={colors.secondary} />
         <TextInput
           style={styles.textInput}
           placeholder="Enter your password"
           placeholderTextColor={colors.secondary}
-          secureTextEntry={true}
+          secureTextEntry
           value={password}
           onChangeText={setPassword}
         />
@@ -116,9 +95,9 @@ const LoginScreen = () => {
 
       {error ? <Text style={styles.errorText}>{error}</Text> : null}
 
-      <TouchableOpacity 
-        style={styles.loginButtonWrapper} 
-        onPress={handleLogin} 
+      <TouchableOpacity
+        style={styles.loginButtonWrapper}
+        onPress={handleLogin}
         disabled={isLoading}
       >
         {isLoading ? (
@@ -126,6 +105,13 @@ const LoginScreen = () => {
         ) : (
           <Text style={styles.loginText}>Login</Text>
         )}
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.signupWrapper}
+        onPress={() => navigation.navigate('SIGNUP')}
+      >
+        <Text style={styles.signupText}>Haven't got an account? Sign up</Text>
       </TouchableOpacity>
     </View>
   );
@@ -137,28 +123,40 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
     padding: 20,
   },
+  animationContainer: {
+    height: 350,
+    paddingTop: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 20,
+  },
+  lottie: {
+    width: '100%',
+    height: '100%',
+  },
   headingText: {
-    fontSize: 32,
+    fontSize: 28,
     color: colors.primary,
-    fontFamily: 'Poppins-SemiBold', // Custom font
+    fontFamily: fonts.SemiBold,
     textAlign: 'center',
-    marginVertical: 40,
+    marginVertical: 30,
   },
   inputContainer: {
     borderWidth: 1,
     borderColor: colors.secondary,
-    borderRadius: 100,
-    paddingHorizontal: 20,
+    borderRadius: 10,
     flexDirection: 'row',
     alignItems: 'center',
-    padding: 2,
+    paddingHorizontal: 15,
     marginVertical: 10,
-    paddingVertical: 12, // Increase inner height
+    height: 50,
   },
   textInput: {
     flex: 1,
     paddingHorizontal: 10,
-    fontFamily: fonts.Light,
+    fontFamily: fonts.Regular,
+    fontSize: 16,
+    color: colors.text,
   },
   errorText: {
     color: 'red',
@@ -167,17 +165,26 @@ const styles = StyleSheet.create({
   },
   loginButtonWrapper: {
     backgroundColor: colors.primary,
-    borderRadius: 100,
+    borderRadius: 10,
     marginTop: 20,
-    padding: 10,
+    paddingVertical: 12,
     justifyContent: 'center',
     alignItems: 'center',
   },
   loginText: {
     color: colors.white,
-    fontSize: 20,
+    fontSize: 18,
     fontFamily: fonts.SemiBold,
-    textAlign: 'center',
+  },
+  signupWrapper: {
+    marginTop: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  signupText: {
+    fontSize: 16,
+    color: colors.secondary,
+    fontFamily: fonts.Regular,
   },
 });
 

@@ -32,7 +32,7 @@ const ResultScreen = ({ route, navigation }) => {
   useEffect(() => {
     const fetchHighestScore = async () => {
       try {
-        const response = await axios.get('http://192.168.43.54:5161/api/game/get-highest-score', {
+        const response = await axios.get('http://192.168.1.16:5161/api/game/get-highest-score', {
           headers: {
             Authorization: `Bearer ${token}`, // Token for authentication
           },
@@ -75,7 +75,7 @@ const ResultScreen = ({ route, navigation }) => {
     };
 
     try {
-      const response = await axios.post('http://192.168.43.54:5161/api/game/submit-score', scoreData, {
+      const response = await axios.post('http://192.168.1.16:5161/api/game/submit-score', scoreData, {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'application/json', // Ensure the correct Content-Type

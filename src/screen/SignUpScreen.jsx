@@ -39,7 +39,7 @@ const SignupScreen = () => {
     setIsLoading(true); 
     setError('');
     try {
-      const response = await axios.post('http://192.168.43.54:5161/api/auth/signup', {
+      const response = await axios.post('http://192.168.1.16:5161/api/auth/signup', {
         name,
         email,
         password,

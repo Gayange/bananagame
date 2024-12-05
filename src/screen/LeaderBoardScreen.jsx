@@ -26,7 +26,7 @@ const LeaderBoardScreen = ({ navigation }) => {
                 }
 
                 const response = await axios.get(
-                    'http://192.168.43.54:5161/api/game/leaderboard?top=10',
+                    'http://192.168.1.16:5161/api/game/leaderboard?top=10',
                     {
                         headers: {
                             Authorization: `Bearer ${token}`,

@@ -198,7 +198,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#2e8b57',  // Greenish color
     marginBottom: 150,
-    top: 30  // Push heading down
+    top: 10  // Push heading down
   },
   levelText: {
     position: 'absolute',  // Position on the left side
@@ -224,8 +224,8 @@ const styles = StyleSheet.create({
     top: 130,  // Move down from the heading
   },
   questionImage: {
-    width: 350,
-    height: 200,
+    width: 410,
+    height: 230,
     marginBottom: 20,
     borderRadius: 10,
   },

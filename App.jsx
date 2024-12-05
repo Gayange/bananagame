@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native';
-import React from 'react';
+import { StyleSheet, ActivityIndicator, View } from 'react-native';
+import React, { useState, useEffect } from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import HomeScreen from './src/screen/HomeScreen';
@@ -10,11 +10,39 @@ import GameScreen from './src/screen/GameScreen';
 import ResultScreen from './src/screen/ResultScreen';
 import BoardScreen from './src/screen/LeaderBoardScreen';
 import ProfileScreen from './src/screen/ProfileScreen';
+import * as Font from 'expo-font';
 import { UserProvider } from '../Frontend/contexts/UserContext'; // Import the context provider
 
 const Stack = createNativeStackNavigator();
 
+const loadFonts = async () => {
+  await Font.loadAsync({
+    'Poppins-Bold': require('./assets/fonts/Poppins-Bold.ttf'),
+    'Poppins-Light': require('./assets/fonts/Poppins-Light.ttf'),
+    'Poppins-Medium': require('./assets/fonts/Poppins-Medium.ttf'),
+    'Poppins-Regular': require('./assets/fonts/Poppins-Regular.ttf'),
+    'Poppins-SemiBold': require('./assets/fonts/Poppins-SemiBold.ttf'),
+  });
+};
+
 const App = () => {
+  const [fontsLoaded, setFontsLoaded] = useState(false);
+
+  useEffect(() => {
+    (async () => {
+      await loadFonts();
+      setFontsLoaded(true);
+    })();
+  }, []);
+
+  if (!fontsLoaded) {
+    return (
+      <View style={styles.loader}>
+        <ActivityIndicator size="large" color="#0000ff" />
+      </View>
+    );
+  }
+
   return (
     <UserProvider> 
       <NavigationContainer>
@@ -35,4 +63,10 @@ const App = () => {
 
 export default App;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  loader: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
